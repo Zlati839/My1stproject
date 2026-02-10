@@ -11,3 +11,11 @@ if color :
 Subject = st.text_input("Whats your favorite subject ")
 if Subject :
   st.write(f"{Subject} , intresting")
+
+Hobby = st.text_input("How about Hobies ?")
+if Hobby :
+  st.write(f"{Hobby} Sounds Fun :D")
+
+Age = st.text_input("Whats your age  ?")
+if Age :
+  st.write(f"{Age} , nice ")
