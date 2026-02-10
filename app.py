@@ -6,7 +6,7 @@ if name :
   
 color = st.text_input("Whats 2+2 ")
 if color:
-  if color == 4 :
+  if color =:= 4 :
     st.success(f"Correct!!")
   else:
      st.warning(f"Wrong")
