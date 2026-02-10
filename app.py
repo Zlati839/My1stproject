@@ -1,15 +1,10 @@
 import streamlit as st
 st.title("Math test")
-name = st.text_input("Whats your name ")
-if name :
-  st.write(f"hello {name}")
-  
 color = st.text_input("Whats 2+2 ")
-if color:
-  if color == 4:
-    st.success(f"Correct!!")
-  else:
-     st.warning(f"Wrong")
+if color == 4:
+  st.success(f"Correct!!")
+ else:
+    st.warning(f"Wrong")
 Subject = st.text_input("Whats 10/2 ")
 if Subject:
   if Subject == 5:
