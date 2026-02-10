@@ -3,3 +3,7 @@ st.title("my 1st project")
 name = st.text_input("Whats your name ")
 if name :
   st.write(f"hello {name}")
+  
+color = st.text_input("Whats your favorite ")
+if color :
+  st.write(f"{color} is a nice color")
